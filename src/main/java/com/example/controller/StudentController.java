@@ -13,6 +13,7 @@ public class StudentController {
 	
 	@GetMapping("/bye")
 	public String bye() {
+		System.out.println("test build");
 		return "Bye World";
 	}
 }
